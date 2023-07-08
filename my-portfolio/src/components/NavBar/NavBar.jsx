@@ -3,7 +3,7 @@ import { Box, Flex, Text, Link } from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
-    <Flex bg="#FFCBA4" py={4} px={8} color="orange.500" alignItems="center">
+    <Flex  py={4} px={8} color="orange.500" alignItems="center">
       <Text fontSize="lg" fontWeight="bold" mr={8}>
         Portfolio
       </Text>
