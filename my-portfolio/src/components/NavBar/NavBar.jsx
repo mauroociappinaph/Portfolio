@@ -1,9 +1,10 @@
 import React from "react";
 import { Box, Flex, Text, Link } from "@chakra-ui/react";
+import SearchBar from "../SearchBar/SearchBar";
 
 const Navbar = () => {
   return (
-    <Flex  py={4} px={8} color="orange.500" alignItems="center">
+    <Flex  py={4} px={8} color="orange.500" alignItems="center" justify="center">
       <Text fontSize="lg" fontWeight="bold" mr={8}>
         Portfolio
       </Text>
@@ -36,6 +37,7 @@ const Navbar = () => {
           Contact
         </Link>
       </Box>
+      <SearchBar />
     </Flex>
   );
 };
