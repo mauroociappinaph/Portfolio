@@ -14,27 +14,27 @@ const Navbar = () => {
           href="#about"
           _hover={{ color: "#FF9F40", textDecoration: "underline" }}
         >
-          About
+          Sobre Mi
         </Link>
         <Link
           mr={4}
           href="#projects"
           _hover={{ color: "#FF9F40", textDecoration: "underline" }}
         >
-          Projects
+          Pryectos 
         </Link>
         <Link
           mr={4}
           href="#skills"
           _hover={{ color: "#FF9F40", textDecoration: "underline" }}
         >
-          Skills
+          Habilidades
         </Link>
         <Link
           href="#contact"
           _hover={{ color: "#FF9F40", textDecoration: "underline" }}
         >
-          Contact
+          Contacto
         </Link>
       </Box>
       <SearchBar />
